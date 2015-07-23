@@ -67,6 +67,7 @@ class JConfig {
 	public $smtpuser = '';
 	public $tmp_path = 'D:/xampp/htdocs/sdvico/tmp';
 	public $unicodeslugs = '0';
+
 	public $mailonline = '1';
 	public $memcached_persist = '1';
 	public $memcached_compress = '0';
