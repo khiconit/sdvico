@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>KC RDCMA SDVICO</name>
+	<creationDate>21 JULY 2015</creationDate>
+	<author>Khỉ Con</author>
+	<authorEmail>truongthangit9x@gmail.com</authorEmail>
+	<authorUrl>http://rdcma.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>3.1.0</version>
+	<description>TPL_SDVICO_XML_DESCRIPTION</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>javascript</folder>
+		<folder>language</folder>
+		<folder>wp-content</folder>
+		<folder>wp-includes</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>jsstrings.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>sdvico-phone</position>
+		<position>sdvico-logo</position>
+		<position>sdvico-chooselang</position>
+		<position>sdvico-menu</position>
+		<position>sdvico-slider</position>
+		<position>sdvico-service</position>
+		<position>sdvico-welcome</position>
+		<position>sdvico-service2</position>
+		<position>sdvico-service3</position>
+		<position>sdvico-service4</position>
+		<position>sdvico-statistical</position>
+		<position>sdvico-newslates</position>
+		<position>sdvico-footer1</position>
+		<position>sdvico-footer</position>
+		<position>position-14</position>
+	</positions>
+
+	<!-- 	For core templates, we also install/uninstall the language files in the core language folders.
+	-->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_beez3.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_beez3.sys.ini</language>
+	</languages>
+</extension>
