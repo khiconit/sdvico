@@ -13,7 +13,7 @@ class JConfig {
 	public $captcha = '0';
 	public $cookie_domain = '';
 	public $cookie_path = '';
-	public $db = 'sdvico';
+	public $db = 'rdcma_sdvico';
 	public $dbprefix = 'rdcma_';
 	public $dbtype = 'mysqli';
 	public $debug = '0';
@@ -49,7 +49,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $offset = 'UTC';
 	public $offset_user = 'UTC';
-	public $password = '';
+	public $password = 'sdvico';
 	public $robots = '';
 	public $secret = 'IV5hbO0wnlvIW5SqU9IhMJS2vkKraToC';
 	public $sef = '1';
@@ -67,7 +67,7 @@ class JConfig {
 	public $smtpuser = '';
 	public $tmp_path = 'D:/xampp/htdocs/sdvico/tmp';
 	public $unicodeslugs = '0';
-	public $user = 'root';
+	public $user = 'rdcma_sdvico';
 	public $mailonline = '1';
 	public $memcached_persist = '1';
 	public $memcached_compress = '0';
