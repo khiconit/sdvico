@@ -1,3 +1,6 @@
+administrator/components/com_akeeba/*
+administrator/error_log/
+log/
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
