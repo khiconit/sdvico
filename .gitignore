@@ -1,5 +1,5 @@
 administrator/components/com_akeeba/*
-administrator/error_log/
+administrator/error_log
 log/
 # Windows image file caches
 Thumbs.db
@@ -44,4 +44,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-configuration.php
+.configuration.php
