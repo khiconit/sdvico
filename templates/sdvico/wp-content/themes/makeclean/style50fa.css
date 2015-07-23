@@ -420,7 +420,7 @@ p,
 
 /* Logo Block */
 .logo-block {
-	padding: 5px 0 5px 0;
+	margin: -11px 1px -25px 5px;
 }
 
 /*.logo-block .call-us*/
@@ -3505,4 +3505,15 @@ article iframe, article object, article embed {
 .no-content-padding header+.ow-section,.no-content-padding .page-banner+.ow-section {padding:0;}
 .logo-block img{
 	height: 100px;
+}
+.col-md-9.col-sm-8.row.header-right {
+height: 145px;
+}
+.col-md-6.col-sm-6.col-sm-offset-2.col-md-offset-2.call-us {
+  padding: 40px 0px 0px 0px;
+  width: 50%;
+}.col-md-4.col-sm-4.text-right.ow-padding-left.cart {
+  padding: 0px 0px 0px 0px;
+  /* width: 50%; */
+  padding: 43px;
 }
