@@ -337,19 +337,24 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 
 				</div>
 			</div>
-		</div>	<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">
+		</div>
+		<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">
 			<div class="vc_col-sm-12 wpb_column vc_column_container ">
 						<jdoc:include type="modules" name="sdvico-service"   />
 			</div>
-		</div>	<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
+		</div>
+		<div class="cv_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">
+				<div class="vc_col-sm-12 wpb_column vc_column_container ">
+						<jdoc:include type="component" />
+			</div>
+
+		</div>
+		<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
 			<div class="vc_col-sm-4 wpb_column vc_column_container ">
 				<div class="wpb_wrapper">
 
 			<div class="wpb_single_image wpb_content_element vc_align_center">
-				<div class="wpb_wrapper">
-
-					<a href="#!" target="_self"><div class="vc_single_image-wrapper   vc_box_border_grey"><img width="349" height="558" src="<?php echo $this->baseurl . '/templates/' . $this->template?>/wp-content/uploads/sites/29/2015/05/welcome-img.png" class="vc_single_image-img attachment-full" alt="Welcome" /></div></a>
-				</div>
+				<jdoc:include type="modules" name="sdvico-bannerwelcome"   />
 			</div>
 				</div>
 			</div>
