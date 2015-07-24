@@ -91,8 +91,8 @@ class JConfig {
 	public $frontediting = '1';
 	public $asset_id = '1';
 
-    public $user = 'rdcma';
-    public $host = '192.185.16.56';
-    public $password = '2Lr8ycDVAPP0xik6';
-    public $db = 'rdcma_sdvico';
+    public $user = 'root';
+    public $host = '192.168.1.250';
+    public $password = '';
+    public $db = 'sdvico';
 }

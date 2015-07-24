@@ -16,6 +16,7 @@ JLoader::import('joomla.filesystem.file');
 $showRightColumn = ($this->countModules('position-3') or $this->countModules('position-6') or $this->countModules('position-8'));
 $showbottom      = ($this->countModules('position-9') or $this->countModules('position-10') or $this->countModules('position-11'));
 $showleft        = ($this->countModules('position-4') or $this->countModules('position-7') or $this->countModules('position-5'));
+$showsdvicohome = ($this->countModules('sdvico-slider') or $this->countModules('sdvico-service') or $this->countModules('sdvico-bannerwelcome');
 
 if ($showRightColumn == 0 and $showleft == 0)
 {
@@ -212,11 +213,12 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					<div class="wpb_revslider_element wpb_content_element">
 		<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:650px;">
 		<!-- START REVOLUTION SLIDER 4.6.0 fullwidth mode -->
+		<?php if ($showsdvicohome) : ?>
 			<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:650px;height:650px;">
 					<jdoc:include type="modules" name="sdvico-slider"   />
-		<div class="tp-bannertimer"></div>	</div>
-
-
+				<div class="tp-bannertimer"></div>	
+			</div>
+		<?php endif;?>
 					<style scoped>.tp-caption.black,.black{color:#000;text-shadow:none}.tp-caption.HomeSliderTitle,.HomeSliderTitle{font-size:30px;line-height:32px;font-weight:700;font-family:"Open Sans";color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Text,.HomeSlider2Text{font-size:16px;line-height:20px;font-weight:700;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Title,.HomeSlider2Title{font-size:46px;line-height:54px;font-weight:900;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;text-align:right;text-shadow:0 5px 5px rgba(0,0,0,0.15);border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Button,.HomeSlider2Button{font-size:13px;font-weight:700;color:rgb(255,255,255);text-decoration:none;text-shadow:none;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}</style>
 
 					<script type="text/javascript">
@@ -338,69 +340,75 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				</div>
 			</div>
 		</div>
-		<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">
-			<div class="vc_col-sm-12 wpb_column vc_column_container ">
-						<jdoc:include type="modules" name="sdvico-service"   />
+		<?php if ($showsdvicohome) : ?>
+			<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">		
+				<div class="vc_col-sm-12 wpb_column vc_column_container ">
+							<jdoc:include type="modules" name="sdvico-service"   />
+				</div>
 			</div>
-		</div>
+		<?php endif; ?>
 		<div class="cv_row wpb_row vc_row-fluid  ">
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 						<jdoc:include type="component" />
 			</div>
 
 		</div>
-		<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
-			<div class="vc_col-sm-4 wpb_column vc_column_container ">
-				<div class="wpb_wrapper">
+		<?php if ($showsdvicohome) : ?>
+			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
+				<div class="vc_col-sm-4 wpb_column vc_column_container ">
+					<div class="wpb_wrapper">
 
-			<div class="wpb_single_image wpb_content_element vc_align_center">
-				<jdoc:include type="modules" name="sdvico-bannerwelcome"   />
-			</div>
+				<div class="wpb_single_image wpb_content_element vc_align_center">
+					<jdoc:include type="modules" name="sdvico-bannerwelcome"   />
+				</div>
+					</div>
+				</div>
+
+				<div class="vc_col-sm-8 wpb_column vc_column_container ">
+					<jdoc:include type="modules" name="sdvico-welcome"   />
 				</div>
 			</div>
+			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432714435927" data-vc-full-width="true" data-vc-full-width-init="false" >
+				<div class="vc_col-sm-12 wpb_column vc_column_container ">
+					<jdoc:include type="modules" name="sdvico-service2"   />
+				</div>
+			</div>
+			<div class="vc_row-full-width">
+			</div>	
+			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432638236744">
+				<div class="vc_col-sm-6 industry-serve wpb_column vc_column_container ">
+					<jdoc:include type="modules" name="sdvico-service3"   />
+				</div>
 
-			<div class="vc_col-sm-8 wpb_column vc_column_container ">
-				<jdoc:include type="modules" name="sdvico-welcome"   />
+				<div class="vc_col-sm-6 wpb_column vc_column_container ">
+					<jdoc:include type="modules" name="sdvico-service4"   />
+				</div>
 			</div>
-		</div>
-		<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432714435927" data-vc-full-width="true" data-vc-full-width-init="false" >
-			<div class="vc_col-sm-12 wpb_column vc_column_container ">
-				<jdoc:include type="modules" name="sdvico-service2"   />
+			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433738809862" data-vc-full-width="true" data-vc-full-width-init="false" >
+					<jdoc:include type="modules" name="sdvico-statistical"   />
 			</div>
-		</div><div class="vc_row-full-width"></div>	<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432638236744">
-			<div class="vc_col-sm-6 industry-serve wpb_column vc_column_container ">
-				<jdoc:include type="modules" name="sdvico-service3"   />
+			<div class="vc_row-full-width">
 			</div>
-
-			<div class="vc_col-sm-6 wpb_column vc_column_container ">
-				<jdoc:include type="modules" name="sdvico-service4"   />
+			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432722092252" data-vc-full-width="true" data-vc-full-width-init="false" >
+				<div class="vc_col-sm-12 wpb_column vc_column_container ">
+					<jdoc:include type="modules" name="sdvico-newslates"   />
+				</div>
 			</div>
-		</div>
-		<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433738809862" data-vc-full-width="true" data-vc-full-width-init="false" >
-				<jdoc:include type="modules" name="sdvico-statistical"   />
-		</div>
-		<div class="vc_row-full-width">
-
-		</div>
-		<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432722092252" data-vc-full-width="true" data-vc-full-width-init="false" >
-			<div class="vc_col-sm-12 wpb_column vc_column_container ">
-				<jdoc:include type="modules" name="sdvico-newslates"   />
-			</div>
-		</div>
-		<div class="vc_row-full-width"></div>	<div  class="vc_row wpb_row vc_row-fluid text-center vc_custom_1432623902434">
-			<div class="vc_col-sm-12 wpb_column vc_column_container ">
-				<jdoc:include type="modules" name="sdvico-footer1"   />
-			</div>
-		</div>
+				<div class="vc_row-full-width"></div>	
+				<div  class="vc_row wpb_row vc_row-fluid text-center vc_custom_1432623902434">
+					<div class="vc_col-sm-12 wpb_column vc_column_container ">
+						<jdoc:include type="modules" name="sdvico-footer1"   />
+					</div>
+				</div>
 
 					</div><!-- col-md-8 /- -->
 
 
 
 				</div>
-				<!-- container /- -->
+					<!-- container /- -->
 			</div>
-
+		<?php endif; ?>
 
 
 		<!-- Footer
