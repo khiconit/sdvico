@@ -3197,12 +3197,12 @@ ol.comment-list li.comment{
 /* Default styles */
 div[class^="col-"] img {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
 }
 img {
     -ms-interpolation-mode: bicubic;
     border: 0;
-    height: auto;
+    /*height: auto;*/
     max-width: 100%;
     vertical-align: middle;
 }

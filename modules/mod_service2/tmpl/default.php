@@ -19,15 +19,15 @@ defined('_JEXEC') or die('Restricted access');
                                         </div>
                                         <div class="col-md-9 col-sm-8">
                                             <div class="owl-carousel owl-theme"><div class='team-box'>
-                            <img width="253" height="253" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/team-1.png" class="attachment-square-md" alt="Team" />
+                            <img width="253" height="253" src="/images/dt1.jpg" class="attachment-square-md" alt="Team" />
                             <div class='team-box-inner'>
-                                <a href='http://themeforest.net/'><img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/team/team-icon.png' alt='team icon' /></a>
+                                <a href='/'><img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/team/team-icon.png' alt='team icon' /></a>
                                 <h4>BENJAMIN THOMAS</h4>
                                 <hr>
                                 <p>Office Clenaer</p>
                             </div>
                         </div><div class='team-box'>
-                            <img width="253" height="253" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/team-2.png" class="attachment-square-md" alt="Team" />
+                            <img width="253" height="253" src="/images/dt2.jpg" class="attachment-square-md" alt="Team" />
                             <div class='team-box-inner'>
                                 <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/team/team-icon.png' alt='team icon' />
                                 <h4>Amélie Laurent</h4>
@@ -35,7 +35,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <p>Office Clenaer</p>
                             </div>
                         </div><div class='team-box'>
-                            <img width="253" height="253" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/team-3.png" class="attachment-square-md" alt="Team" />
+                            <img width="253" height="253" src="/images/dt3.jpg" class="attachment-square-md" alt="Team" />
                             <div class='team-box-inner'>
                                 <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/team/team-icon.png' alt='team icon' />
                                 <h4>Elise Simon</h4>
@@ -43,7 +43,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <p>Office Clenaer</p>
                             </div>
                         </div><div class='team-box'>
-                            <img width="253" height="253" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/team-1.png" class="attachment-square-md" alt="Team" />
+                            <img width="253" height="253" src="/images/dt4.jpg" class="attachment-square-md" alt="Team" />
                             <div class='team-box-inner'>
                                 <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/team/team-icon.png' alt='team icon' />
                                 <h4>BENJAMIN THOMAS</h4>
@@ -51,7 +51,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <p>Office Clenaer</p>
                             </div>
                         </div><div class='team-box'>
-                            <img width="253" height="253" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/team-2.png" class="attachment-square-md" alt="Team" />
+                            <img width="253" height="253" src="/images/dt1.jpg" class="attachment-square-md" alt="Team" />
                             <div class='team-box-inner'>
                                 <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/team/team-icon.png' alt='team icon' />
                                 <h4>Amélie Laurent</h4>
@@ -59,7 +59,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <p>Office Clenaer</p>
                             </div>
                         </div><div class='team-box'>
-                            <img width="253" height="253" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/team-3.png" class="attachment-square-md" alt="Team" />
+                            <img width="253" height="253" src="/images/dt3.jpg" class="attachment-square-md" alt="Team" />
                             <div class='team-box-inner'>
                                 <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/team/team-icon.png' alt='team icon' />
                                 <h4>Elise Simon</h4>
