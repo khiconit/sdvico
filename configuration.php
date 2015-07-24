@@ -90,6 +90,7 @@ class JConfig {
 	public $session_memcached_server_port = '11211';
 	public $frontediting = '1';
 	public $asset_id = '1';
+
     public $user = 'rdcma';
     public $host = '192.185.16.56';
     public $password = '2Lr8ycDVAPP0xik6';
