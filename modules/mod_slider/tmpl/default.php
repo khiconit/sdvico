@@ -27,7 +27,7 @@ defined('_JEXEC') or die('Restricted access');
                     data-endelementdelay="0.1"
                      data-endspeed="300"
 
-                    style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">MAKE YOUR WORLD AS CLEAN AS MINE
+                    style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Nguồn nước lọc thiên nhiên
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -65,7 +65,8 @@ defined('_JEXEC') or die('Restricted access');
                     data-endelementdelay="0.1"
                      data-endspeed="300"
 
-                    style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">WE HAVE <span>15 YEARS</span> EXPERIENCE IN CLEANING.
+                    style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
+                   Chúng tôi có <span> 15 năm kinh nghiệm</span> Trong việc nghiên cứu và triển khai hệ thống lọc nước
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -95,7 +96,8 @@ defined('_JEXEC') or die('Restricted access');
                     data-endelementdelay="0.1"
                      data-endspeed="300"
 
-                    style="z-index: 7; max-width: 600px; max-height: auto; white-space: normal;"><span>MAKE</span> YOUR WORLD AS CLEAN AS MINE
+                    style="z-index: 7; max-width: 600px; max-height: auto; white-space: normal;">
+                    <span>Hệ thống lọc hiện đại</span> Đáp ứng nhu cầu cao
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -111,7 +113,7 @@ defined('_JEXEC') or die('Restricted access');
                     data-endelementdelay="0.1"
                      data-endspeed="300"
 
-                    style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><a title="About More" href="#" class="btn no-margin">About More</a>
+                    style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><a title="Xem thêm" href="#" class="btn no-margin">Xem thêm</a>
                 </div>
             </li>
         </ul>

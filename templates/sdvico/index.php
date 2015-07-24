@@ -149,21 +149,21 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					<div class="container">
 						<div class="row">
 							<!-- col-md-2 -->
-							<div class="col-md-3 col-sm-4">
+							<div class="col-md-2 col-sm-3">
 								<jdoc:include type="modules" name="sdvico-logo"   />
 							</div><!-- col-md-2 /- -->
 							<!-- col-md-4 -->
-							<div class="col-md-9 col-sm-8  row header-right">
-
+							<div class="col-md-10 col-sm-9  row header-right">
 														<!-- col-md-7 -->
-								<div class="col-md-6 col-sm-6 col-sm-offset-2 col-md-offset-2 call-us ">
+								<div class="col-md-4 col-sm-4 col-sm-offset-2 col-md-offset-2 call-us ">
 									<jdoc:include type="modules" name="sdvico-phone"   />
 								</div><!-- col-md-7 /- -->
 															<!-- col-md-5 -->
-									<div class="col-md-4 col-sm-4 text-right ow-padding-left cart">
-										<jdoc:include type="modules" name="sdvico-chooselang"   />
-									</div><!-- col-md-5 /- -->
-													</div><!-- col-md-4 /- -->
+								<div class="col-md-6 col-sm-5 text-right ow-padding-left cart">
+									<jdoc:include type="modules" name="sdvico-chooselang"   />
+								</div><!-- col-md-5 /- -->
+
+								</div><!-- col-md-4 /- -->
 						</div>
 					</div>
 				</div><!-- Logo Block /- -->
@@ -192,7 +192,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 							</nav><!-- col-md-8 /- -->
 
 												<div class="col-md-4 quote">
-								<a href="#!">Free instant quote</a>
+								<a href="#!">Góp ý</a>
 							</div>
 
 						</div>
@@ -216,7 +216,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 										<?php if ($showsdvicohome): ?>
 											<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:650px;height:650px;">
 															<jdoc:include type="modules" name="sdvico-slider"   />
-													<div class="tp-bannertimer"></div>	
+													<div class="tp-bannertimer"></div>
 											</div>
 										<?php endif; ?>
 												<style scoped>.tp-caption.black,.black{color:#000;text-shadow:none}.tp-caption.HomeSliderTitle,.HomeSliderTitle{font-size:30px;line-height:32px;font-weight:700;font-family:"Open Sans";color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Text,.HomeSlider2Text{font-size:16px;line-height:20px;font-weight:700;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Title,.HomeSlider2Title{font-size:46px;line-height:54px;font-weight:900;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;text-align:right;text-shadow:0 5px 5px rgba(0,0,0,0.15);border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Button,.HomeSlider2Button{font-size:13px;font-weight:700;color:rgb(255,255,255);text-decoration:none;text-shadow:none;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}</style>
@@ -342,7 +342,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 								</div>
 						</div>
 			<?php if ($showsdvicohome) : ?>
-			<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">		
+			<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 							<jdoc:include type="modules" name="sdvico-service"   />
 				</div>
@@ -374,7 +374,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				</div>
 			</div>
 			<div class="vc_row-full-width">
-			</div>	
+			</div>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432638236744">
 				<div class="vc_col-sm-6 industry-serve wpb_column vc_column_container ">
 					<jdoc:include type="modules" name="sdvico-service3"   />
@@ -394,7 +394,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					<jdoc:include type="modules" name="sdvico-newslates"   />
 				</div>
 			</div>
-			<div class="vc_row-full-width"></div>	
+			<div class="vc_row-full-width"></div>
 			<div  class="vc_row wpb_row vc_row-fluid text-center vc_custom_1432623902434">
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 					<jdoc:include type="modules" name="sdvico-footer1"   />

@@ -92,7 +92,7 @@ class JConfig {
 	public $asset_id = '1';
 
     public $user = 'root';
-    public $host = '192.168.1.250';
+    public $host = '192.168.1.156';
     public $password = '';
     public $db = 'sdvico';
 }
