@@ -3523,3 +3523,32 @@ height: 145px;
 .blog-box img{
 	height: auto;
 }
+ul.row-fluid li {
+    width: 29%;
+    padding: 8px;
+    list-style: none;
+    float: left;
+}
+ul.row-fluid li a:focus, ul.row-fluid li a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration: none;
+}
+ul.row-fluid li a {
+	    font-weight: 700;
+}
+.readmore {
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #2196f3;
+    margin-top: 35px;
+    /* position: absolute; */
+    bottom: 0px;
+    left: 30px;
+}
+.readmore span {
+    color: white;
+}
+.readmore span:hover {
+    color: red;
+}
