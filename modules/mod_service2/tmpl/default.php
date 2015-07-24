@@ -12,9 +12,10 @@ defined('_JEXEC') or die('Restricted access');
                                     <div class="row">
                                         <div class="col-md-3 col-sm-4">
                                             <div class="section-header">
-                                                <h3><img src="<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/icon/sep-icon.png" alt="sep-icon"> Clever Staffs</h3>
+                                                <h3><img src="<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/icon/sep-icon.png" alt="sep-icon">Đối tác</h3>
                                             </div>
-                                            <p>Totam rem aperiam, eaque ipsa quae inventore veritatis et quasi architect beatae vitae dicta sunt expleo. nemo enim ipsam voluptatem quia.</p>
+                                            <p>
+                                            Các công ty,đơn vị tổ chức đang sử dụng sản phẩm của SDVICO.</p>
                                         </div>
                                         <div class="col-md-9 col-sm-8">
                                             <div class="owl-carousel owl-theme"><div class='team-box'>

@@ -343,7 +343,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 						<jdoc:include type="modules" name="sdvico-service"   />
 			</div>
 		</div>
-		<div class="cv_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">
+		<div class="cv_row wpb_row vc_row-fluid  ">
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 						<jdoc:include type="component" />
 			</div>
