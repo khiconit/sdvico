@@ -3517,3 +3517,9 @@ height: 145px;
   /* width: 50%; */
   padding: 43px;
 }
+.logo-block img{
+	height: auto;
+}
+.blog-box img{
+	height: auto;
+}

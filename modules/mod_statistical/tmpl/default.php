@@ -14,7 +14,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <span class='count' data-statistics_percent='123'></span>
                             </h3>
                             <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/icon/brush.png' alt='brush' />
-                            <h4>SATISFIED CUSTOMERS</h4>
+                            <h4>Nhân viên</h4>
                         </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <span class='count' data-statistics_percent='1237'></span>
                             </h3>
                             <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/icon/brush.png' alt='brush' />
-                            <h4>BUILDING CLEANED</h4>
+                            <h4>Công ty,tổ chức đã lắp đặt</h4>
                         </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <span class='count' data-statistics_percent='2500'></span>
                             </h3>
                             <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/icon/brush.png' alt='brush' />
-                            <h4>CLEVER EMPLOYEES</h4>
+                            <h4>Khách hàng cá nhân</h4>
                         </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ defined('_JEXEC') or die('Restricted access');
                                 <span class='count' data-statistics_percent='25'></span>
                             </h3>
                             <img src='<?php echo JURI::base();?>templates/sdvico/wp-content/themes/makeclean/images/icon/brush.png' alt='brush' />
-                            <h4>OFFICE WORLD WIDE</h4>
+                            <h4>Trụ sở</h4>
                         </div>
                 </div>
             </div>

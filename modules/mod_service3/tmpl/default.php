@@ -25,13 +25,13 @@ defined('_JEXEC') or die('Restricted access');
             </div>
             <div class="wpb_text_column wpb_content_element ">
                 <div class="wpb_wrapper">
-                    <p><img class="alignnone wp-image-63 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/auto-mobile.png" alt="Icon" width="25" height="18" />Auto Dealershop</p>
+                    <p><img class="alignnone wp-image-63 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/auto-mobile.png" alt="Icon" width="25" height="18" />Lắp đặt nhà</p>
 
                 </div>
             </div>
             <div class="wpb_text_column wpb_content_element ">
                 <div class="wpb_wrapper">
-                    <p><img class="alignnone wp-image-65 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/fitness.png" alt="Icon" width="26" height="17" /> Sports &amp; Fintess Centers</p>
+                    <p><img class="alignnone wp-image-65 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/fitness.png" alt="Icon" width="26" height="17" /> Bảo hành 3 năm</p>
 
                 </div>
             </div>
@@ -49,17 +49,17 @@ defined('_JEXEC') or die('Restricted access');
             </div>
             <div class="wpb_text_column wpb_content_element ">
                 <div class="wpb_wrapper">
-                    <p><img class="alignnone wp-image-66 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/medical.png" alt="Icon" width="22" height="22" />Medical Facilities</p>
+                    <p><img class="alignnone wp-image-66 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/medical.png" alt="Icon" width="22" height="22" />Chất lượng đảm bảo</p>
 
                 </div>
             </div>
             <div class="wpb_text_column wpb_content_element ">
                 <div class="wpb_wrapper">
-                    <p><img class="alignnone wp-image-64 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/entertainment.png" alt="Icon" width="30" height="18" /> Entertainment Veneues</p>
+                    <p><img class="alignnone wp-image-64 size-full" src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/2015/05/entertainment.png" alt="Icon" width="30" height="18" /> Giá thành rẻ</p>
 
                 </div>
             </div>
                 </div>
             </div>
-        </div><a href='#' target='_self' class='btn  margin-left-50'>View more</a>
+        </div><a href='#' target='_self' class='btn  margin-left-50'>Xem thêm</a>
                 </div>
