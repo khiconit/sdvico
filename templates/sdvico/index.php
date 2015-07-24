@@ -16,7 +16,7 @@ JLoader::import('joomla.filesystem.file');
 $showRightColumn = ($this->countModules('position-3') or $this->countModules('position-6') or $this->countModules('position-8'));
 $showbottom      = ($this->countModules('position-9') or $this->countModules('position-10') or $this->countModules('position-11'));
 $showleft        = ($this->countModules('position-4') or $this->countModules('position-7') or $this->countModules('position-5'));
-$showsdvicohome = ($this->countModules('sdvico-slider') or $this->countModules('sdvico-service') or $this->countModules('sdvico-bannerwelcome');
+$showsdvicohome = ($this->countModules('sdvico-slider'));
 
 if ($showRightColumn == 0 and $showleft == 0)
 {
@@ -208,152 +208,152 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					<div class="col-sm-12 col-md-12 no-padding">
 
 						<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433231528582">
-			<div class="vc_col-sm-12 wpb_column vc_column_container ">
-				<div class="wpb_wrapper">
-					<div class="wpb_revslider_element wpb_content_element">
-		<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:650px;">
-		<!-- START REVOLUTION SLIDER 4.6.0 fullwidth mode -->
-		<?php if ($showsdvicohome) : ?>
-			<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:650px;height:650px;">
-					<jdoc:include type="modules" name="sdvico-slider"   />
-				<div class="tp-bannertimer"></div>	
-			</div>
-		<?php endif;?>
-					<style scoped>.tp-caption.black,.black{color:#000;text-shadow:none}.tp-caption.HomeSliderTitle,.HomeSliderTitle{font-size:30px;line-height:32px;font-weight:700;font-family:"Open Sans";color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Text,.HomeSlider2Text{font-size:16px;line-height:20px;font-weight:700;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Title,.HomeSlider2Title{font-size:46px;line-height:54px;font-weight:900;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;text-align:right;text-shadow:0 5px 5px rgba(0,0,0,0.15);border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Button,.HomeSlider2Button{font-size:13px;font-weight:700;color:rgb(255,255,255);text-decoration:none;text-shadow:none;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}</style>
+							<div class="vc_col-sm-12 wpb_column vc_column_container ">
+							<div class="wpb_wrapper">
+								<div class="wpb_revslider_element wpb_content_element">
+									<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:650px;">
+									<!-- START REVOLUTION SLIDER 4.6.0 fullwidth mode -->
+										<?php if ($showsdvicohome): ?>
+											<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:650px;height:650px;">
+															<jdoc:include type="modules" name="sdvico-slider"   />
+													<div class="tp-bannertimer"></div>	
+											</div>
+										<?php endif; ?>
+												<style scoped>.tp-caption.black,.black{color:#000;text-shadow:none}.tp-caption.HomeSliderTitle,.HomeSliderTitle{font-size:30px;line-height:32px;font-weight:700;font-family:"Open Sans";color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Text,.HomeSlider2Text{font-size:16px;line-height:20px;font-weight:700;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Title,.HomeSlider2Title{font-size:46px;line-height:54px;font-weight:900;font-family:"Lato";color:#ffffff;text-decoration:none;background-color:transparent;text-align:right;text-shadow:0 5px 5px rgba(0,0,0,0.15);border-width:0px;border-color:rgb(255,214,88);border-style:none}.tp-caption.HomeSlider2Button,.HomeSlider2Button{font-size:13px;font-weight:700;color:rgb(255,255,255);text-decoration:none;text-shadow:none;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}</style>
 
-					<script type="text/javascript">
+											<script type="text/javascript">
 
-						/******************************************
-							-	PREPARE PLACEHOLDER FOR SLIDER	-
-						******************************************/
-
-
-						var setREVStartSize = function() {
-							var	tpopt = new Object();
-								tpopt.startwidth = 1200;
-								tpopt.startheight = 650;
-								tpopt.container = jQuery('#rev_slider_1_1');
-								tpopt.fullScreen = "off";
-								tpopt.forceFullWidth="on";
-
-							tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
-						};
-
-						/* CALL PLACEHOLDER */
-						setREVStartSize();
+												/******************************************
+													-	PREPARE PLACEHOLDER FOR SLIDER	-
+												******************************************/
 
 
-						var tpj=jQuery;
-						tpj.noConflict();
-						var revapi1;
+												var setREVStartSize = function() {
+													var	tpopt = new Object();
+														tpopt.startwidth = 1200;
+														tpopt.startheight = 650;
+														tpopt.container = jQuery('#rev_slider_1_1');
+														tpopt.fullScreen = "off";
+														tpopt.forceFullWidth="on";
 
-						tpj(document).ready(function() {
+													tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+												};
 
-						if(tpj('#rev_slider_1_1').revolution == undefined){
-							revslider_showDoubleJqueryError('#rev_slider_1_1');
-						}else{
-						   revapi1 = tpj('#rev_slider_1_1').show().revolution(
-							{
-														dottedOverlay:"none",
-								delay:9000,
-								startwidth:1200,
-								startheight:650,
-								hideThumbs:200,
-
-								thumbWidth:100,
-								thumbHeight:50,
-								thumbAmount:2,
+												/* CALL PLACEHOLDER */
+												setREVStartSize();
 
 
-								simplifyAll:"off",
+												var tpj=jQuery;
+												tpj.noConflict();
+												var revapi1;
 
-								navigationType:"bullet",
-								navigationArrows:"solo",
-								navigationStyle:"round",
+												tpj(document).ready(function() {
 
-								touchenabled:"on",
-								onHoverStop:"on",
-								nextSlideOnWindowFocus:"off",
+												if(tpj('#rev_slider_1_1').revolution == undefined){
+													revslider_showDoubleJqueryError('#rev_slider_1_1');
+												}else{
+												   revapi1 = tpj('#rev_slider_1_1').show().revolution(
+													{
+																				dottedOverlay:"none",
+														delay:9000,
+														startwidth:1200,
+														startheight:650,
+														hideThumbs:200,
 
-								swipe_threshold: 75,
-								swipe_min_touches: 1,
-								drag_block_vertical: false,
+														thumbWidth:100,
+														thumbHeight:50,
+														thumbAmount:2,
 
 
+														simplifyAll:"off",
 
-								keyboardNavigation:"off",
+														navigationType:"bullet",
+														navigationArrows:"solo",
+														navigationStyle:"round",
 
-								navigationHAlign:"center",
-								navigationVAlign:"bottom",
-								navigationHOffset:0,
-								navigationVOffset:20,
+														touchenabled:"on",
+														onHoverStop:"on",
+														nextSlideOnWindowFocus:"off",
 
-								soloArrowLeftHalign:"left",
-								soloArrowLeftValign:"center",
-								soloArrowLeftHOffset:20,
-								soloArrowLeftVOffset:0,
-
-								soloArrowRightHalign:"right",
-								soloArrowRightValign:"center",
-								soloArrowRightHOffset:20,
-								soloArrowRightVOffset:0,
-
-								shadow:0,
-								fullWidth:"on",
-								fullScreen:"off",
-
-														spinner:"spinner0",
-
-								stopLoop:"off",
-								stopAfterLoops:-1,
-								stopAtSlide:-1,
-
-								shuffle:"off",
-
-								autoHeight:"off",
-								forceFullWidth:"on",
+														swipe_threshold: 75,
+														swipe_min_touches: 1,
+														drag_block_vertical: false,
 
 
 
-								hideThumbsOnMobile:"off",
-								hideNavDelayOnMobile:1500,
-								hideBulletsOnMobile:"off",
-								hideArrowsOnMobile:"off",
-								hideThumbsUnderResolution:0,
+														keyboardNavigation:"off",
 
-														hideSliderAtLimit:0,
-								hideCaptionAtLimit:0,
-								hideAllCaptionAtLilmit:0,
-								startWithSlide:0					});
+														navigationHAlign:"center",
+														navigationVAlign:"bottom",
+														navigationHOffset:0,
+														navigationVOffset:20,
+
+														soloArrowLeftHalign:"left",
+														soloArrowLeftValign:"center",
+														soloArrowLeftHOffset:20,
+														soloArrowLeftVOffset:0,
+
+														soloArrowRightHalign:"right",
+														soloArrowRightValign:"center",
+														soloArrowRightHOffset:20,
+														soloArrowRightVOffset:0,
+
+														shadow:0,
+														fullWidth:"on",
+														fullScreen:"off",
+
+																				spinner:"spinner0",
+
+														stopLoop:"off",
+														stopAfterLoops:-1,
+														stopAtSlide:-1,
+
+														shuffle:"off",
+
+														autoHeight:"off",
+														forceFullWidth:"on",
 
 
 
-											}
-						});	/*ready*/
+														hideThumbsOnMobile:"off",
+														hideNavDelayOnMobile:1500,
+														hideBulletsOnMobile:"off",
+														hideArrowsOnMobile:"off",
+														hideThumbsUnderResolution:0,
 
-					</script>
+																				hideSliderAtLimit:0,
+														hideCaptionAtLimit:0,
+														hideAllCaptionAtLilmit:0,
+														startWithSlide:0					});
 
 
-					</div>
-					<!-- END REVOLUTION SLIDER --></div>
 
-				</div>
-			</div>
-		</div>
-		<?php if ($showsdvicohome) : ?>
+																	}
+												});	/*ready*/
+
+											</script>
+
+
+									</div>
+									<!-- END REVOLUTION SLIDER -->
+								</div>
+
+								</div>
+								</div>
+						</div>
+			<?php if ($showsdvicohome) : ?>
 			<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">		
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 							<jdoc:include type="modules" name="sdvico-service"   />
 				</div>
 			</div>
-		<?php endif; ?>
+			<?php endif; ?>
 		<div class="cv_row wpb_row vc_row-fluid  ">
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 						<jdoc:include type="component" />
 			</div>
-
-		</div>
 		<?php if ($showsdvicohome) : ?>
+		</div>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
 				<div class="vc_col-sm-4 wpb_column vc_column_container ">
 					<div class="wpb_wrapper">
@@ -394,12 +394,13 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					<jdoc:include type="modules" name="sdvico-newslates"   />
 				</div>
 			</div>
-				<div class="vc_row-full-width"></div>	
-				<div  class="vc_row wpb_row vc_row-fluid text-center vc_custom_1432623902434">
-					<div class="vc_col-sm-12 wpb_column vc_column_container ">
-						<jdoc:include type="modules" name="sdvico-footer1"   />
-					</div>
+			<div class="vc_row-full-width"></div>	
+			<div  class="vc_row wpb_row vc_row-fluid text-center vc_custom_1432623902434">
+				<div class="vc_col-sm-12 wpb_column vc_column_container ">
+					<jdoc:include type="modules" name="sdvico-footer1"   />
 				</div>
+			<?php endif; ?>
+			</div>
 
 					</div><!-- col-md-8 /- -->
 
@@ -408,9 +409,6 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				</div>
 					<!-- container /- -->
 			</div>
-		<?php endif; ?>
-
-
 		<!-- Footer
 		================================================== -->
 		<footer id="footer-section" class="footer-section ow-background">
