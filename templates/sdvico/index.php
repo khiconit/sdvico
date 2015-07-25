@@ -373,7 +373,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 			<?php endif; ?>
 		</div>
 		<?php if ($bannerwelcome>0) : ?>
-		
+
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
 				<div class="vc_col-sm-4 wpb_column vc_column_container ">
 					<div class="wpb_wrapper">
