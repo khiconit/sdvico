@@ -214,6 +214,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				<div class="container">
 
 					<!-- col-md-8 -->
+					<jdoc:include type="modules" name="sdvico-product"   />
 					<div class="col-sm-12 col-md-12 no-padding">
 
 						<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433231528582">

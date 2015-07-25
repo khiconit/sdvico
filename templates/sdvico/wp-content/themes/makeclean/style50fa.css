@@ -3678,3 +3678,6 @@ div#newslate-right {
 #post-2{
 	padding: 10px 0 10px 0;
 }
+ul.latestnews {
+    display: none;
+}
