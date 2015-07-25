@@ -3675,8 +3675,8 @@ div#newslate-right {
     border-left: 1px solid #dedede;
     padding: 0;
 }
-#post-2{
-	padding: 10px 0 10px 0;
+.padding-top-10{
+	padding: 10px 0 10px 0 !important;
 }
 ul.latestnews {
     display: none;

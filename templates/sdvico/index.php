@@ -208,8 +208,15 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					</div><!-- /.container -->
 				</div><!-- Menu Block /- -->
 			</header><!-- Header Section /- -->
+			<?php
+				if($showsdvicohome):
+					$class="";
+				else:
+					$class="padding-top-10";
 
-			<div id="post-2" class="ow-section post-2 page type-page status-publish hentry">
+				endif;
+			?>
+			<div id="post-2"  class="ow-section post-2 page type-page status-publish hentry <?=$class?>">
 				<!-- container -->
 				<div class="container">
 
