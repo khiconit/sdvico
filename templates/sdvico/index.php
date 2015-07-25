@@ -411,7 +411,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				</div>
 			</div>
 		<?php endif; ?>
-		<?php if ($sdvico-statistical>0) :?>
+		<?php if ($statistical>0) :?>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433738809862" data-vc-full-width="true" data-vc-full-width-init="false" >
 					<jdoc:include type="modules" name="sdvico-statistical"   />
 			</div>
