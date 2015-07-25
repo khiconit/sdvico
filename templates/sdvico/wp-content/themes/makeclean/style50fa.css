@@ -3540,7 +3540,7 @@ ul.row-fluid li a {
 	    font-weight: 700;
 }
 .readmore {
-    padding: 10px 20px;
+        padding: 11px 100px;
     display: inline-block;
     background-color: #2196f3;
     margin-top: 10px;
@@ -3666,10 +3666,15 @@ div#post-2{
 }
 #modal-gop-y #btn-send{
 	    margin-bottom: 15px;
-
-
 }
 #modal-gop-y button{
 	color: white;
 	background: #2196F3
+}
+div#newslate-right {
+    border-left: 1px solid #dedede;
+    padding: 0;
+}
+#post-2{
+	padding: 10px 0 10px 0;
 }
