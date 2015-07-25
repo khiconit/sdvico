@@ -3708,3 +3708,29 @@ ul.latestnews {
     border-radius: 0;
      margin-bottom: 0px !important;
 }
+.blog .readmore:hover{
+	  border: 0px solid #2196f3;
+    box-shadow: 0 4px 0 rgba(33,150,243,0.25);
+    display: inline-block;
+        padding: 2px 14px !important;
+    letter-spacing: 1px;
+    margin-right: 0px !important;
+    border-radius: 0;
+     margin-bottom: 0px !important;
+     background: red;
+}
+.blog img {
+    float: left;
+    margin-right: 22px;
+    width: 100px;
+    height: 110px;
+}
+.blog h2 a:hover,.blog h2 a{
+	color: #2196F3;
+    text-decoration: none;
+    font-size: 20px;
+}
+.blog [class^='leading'] h2{
+	font-size: 13px !important;
+
+}

@@ -211,16 +211,13 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 			<?php
 			$class="";
 				if($showsdvicohome)$class="padding-top-10";;
-
 			?>
 			<div id="post-2"  class="ow-section post-2 page type-page status-publish hentry <?=$class?>">
 				<!-- container -->
 				<div class="container">
-
 					<!-- col-md-8 -->
 					<jdoc:include type="modules" name="sdvico-product"   />
 					<div class="col-sm-12 col-md-12 no-padding">
-
 						<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433231528582">
 							<div class="vc_col-sm-12 wpb_column vc_column_container ">
 							<div class="wpb_wrapper">
@@ -362,6 +359,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				</div>
 			</div>
 			<?php endif; ?>
+
 		<div class="cv_row wpb_row vc_row-fluid  ">
 			<?php if($right): ?>
 					<div class="vc_col-sm-9 wpb_column vc_column_container ">
