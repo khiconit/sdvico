@@ -3681,3 +3681,6 @@ div#newslate-right {
 ul.latestnews {
     display: none;
 }
+.product-main > li{
+	float: left;
+}
