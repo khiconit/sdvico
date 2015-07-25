@@ -16,8 +16,8 @@ JLoader::import('joomla.filesystem.file');
 $showRightColumn = ($this->countModules('position-3') or $this->countModules('position-6') or $this->countModules('position-8'));
 $showbottom      = ($this->countModules('position-9') or $this->countModules('position-10') or $this->countModules('position-11'));
 $showleft        = ($this->countModules('position-4') or $this->countModules('position-7') or $this->countModules('position-5'));
-$showsdvicohome = ($this->countModules('sdvico-slider'));
-
+$showsdvicohome  =  $this->countModules('sdvico-slider');
+$right 			 =	$this->countModules('sdvico-right');
 if ($showRightColumn == 0 and $showleft == 0)
 {
 	$showno = 0;
@@ -349,9 +349,19 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 			</div>
 			<?php endif; ?>
 		<div class="cv_row wpb_row vc_row-fluid  ">
+		<?php if($right): ?>
+				<div class="vc_col-sm-9 wpb_column vc_column_container ">
+						<jdoc:include type="component" />
+			</div>
+			<div class="vc_col-sm-3 wpb_column vc_column_container" id="newslate-right">
+				<jdoc:include type="modules" name="sdvico-right"   />
+
+			</div>
+		<?php else: ?>
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 						<jdoc:include type="component" />
 			</div>
+		<?php endif; ?>
 		<?php if ($showsdvicohome) : ?>
 		</div>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
@@ -390,7 +400,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 			<div class="vc_row-full-width">
 			</div>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432722092252" data-vc-full-width="true" data-vc-full-width-init="false" >
-				<div class="vc_col-sm-12 wpb_column vc_column_container ">
+				<div class="vc_col-sm-12 wpb_column vc_column_container " id="newslate-home">
 					<jdoc:include type="modules" name="sdvico-newslates"   />
 				</div>
 			</div>

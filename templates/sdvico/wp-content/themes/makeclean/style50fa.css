@@ -3523,7 +3523,7 @@ height: 145px;
 .blog-box img{
 	height: auto;
 }
-ul.row-fluid li {
+#newslate-home ul.row-fluid li {
     width: 33%;
     padding: 8px;
     list-style: none;
@@ -3612,6 +3612,16 @@ input#mod-search-searchword {
     left: -6px;
 }
 div#post-2{
-	background-image: url("/images/BG.png");
-	background-repeat: no-repeat;
+	/*background-image: url("/images/BG.png");
+	background-repeat: no-repeat;*/
+}
+.vc_column_container li{
+	float: none;
+	width: 100%;
+}
+#newslate-right img{
+	height: auto;
+}
+#newslate-right li{
+	list-style: none;
 }
