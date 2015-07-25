@@ -208,12 +208,17 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					</div><!-- /.container -->
 				</div><!-- Menu Block /- -->
 			</header><!-- Header Section /- -->
+			<?php
+			$class="";
+				if($showsdvicohome)$class="padding-top-10";;
 
-			<div id="post-2" class="ow-section post-2 page type-page status-publish hentry">
+			?>
+			<div id="post-2"  class="ow-section post-2 page type-page status-publish hentry <?=$class?>">
 				<!-- container -->
 				<div class="container">
 
 					<!-- col-md-8 -->
+					<jdoc:include type="modules" name="sdvico-product"   />
 					<div class="col-sm-12 col-md-12 no-padding">
 
 						<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433231528582">

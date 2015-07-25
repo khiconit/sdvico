@@ -3675,6 +3675,36 @@ div#newslate-right {
     border-left: 1px solid #dedede;
     padding: 0;
 }
-#post-2{
-	padding: 10px 0 10px 0;
+.padding-top-10{
+	padding: 10px 0 10px 0 !important;
+}
+ul.latestnews {
+    display: none;
+}
+.product-main > li{
+	float: left;
+}
+.blog .readmore a.btn{
+	    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    background-color: #2196f3;
+    margin-top: 10px;
+    margin-right: 0px !important;
+    border-radius: 0;
+        color: white;
+}
+.blog .readmore a.btn:hover{
+	 background-color:none;
+	 border: none;
+	 color: white;
+}
+.blog .readmore{
+     border: 0px solid #2196f3;
+    box-shadow: 0 4px 0 rgba(33,150,243,0.25);
+    display: inline-block;
+        padding: 2px 14px !important;
+    letter-spacing: 1px;
+    margin-right: 0px !important;
+    border-radius: 0;
+     margin-bottom: 0px !important;
 }
