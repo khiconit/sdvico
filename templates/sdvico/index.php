@@ -201,7 +201,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 							</nav><!-- col-md-8 /- -->
 
 												<div class="col-md-4 quote">
-								<a href="#!">Góp ý</a>
+								<a href="#modal-id" id="gop-y">Góp ý</a>
 							</div>
 
 						</div>
@@ -447,5 +447,49 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 
 			</div><!-- .container -->
 		</footer>
+
+		<div class="modal fade" id="modal-id">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Góp ý cho SDVICO</h4>
+					</div>
+					<div class="modal-body">
+						<form action="" method="POST" role="form">
+
+
+							<div class="form-group">
+								<label for="">Họ tên</label>
+								<input type="text" class="form-control" id="" placeholder="Trương Quyết Thắng">
+							</div>
+
+							<div class="form-group">
+								<label for="">Email :</label>
+								<input type="text" class="form-control" id="" placeholder="contact@example.com">
+							</div>
+
+							<div class="form-group">
+								<label for="">Nội dung</label><br />
+								<textarea name="" id="txt-gopy" cols="50" rows="10">Nội dung góp ý ...</textarea>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer" id="modal-gop-y">
+						<button type="button" id="btn-close" class="btn btn-default" data-dismiss="modal">Đóng</button>
+						<button type="button" id="btn-send" class="btn btn-primary">Gửi</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script>
+	var mod=jQuery;
+	mod.noConflict();
+	mod(document).ready(function($) {
+		mod("#gop-y").click(function(event) {
+			mod("#modal-id").modal('show');
+		});
+	});
+	</script>
 	</body>
 </html>
