@@ -16,8 +16,17 @@ JLoader::import('joomla.filesystem.file');
 $showRightColumn = ($this->countModules('position-3') or $this->countModules('position-6') or $this->countModules('position-8'));
 $showbottom      = ($this->countModules('position-9') or $this->countModules('position-10') or $this->countModules('position-11'));
 $showleft        = ($this->countModules('position-4') or $this->countModules('position-7') or $this->countModules('position-5'));
-$showsdvicohome  =  $this->countModules('sdvico-slider');
+$showsdvicohome  =  $this->countModules('sdvico-slider') ;
+$bannerwelcome	 = 	$this->countModules('sdvico-bannerwelcome');
+$sdvicowelcome  = 	$this->countModules('sdvico-welcome');
+$sdvicoservice   =  $this->countModules('sdvico-service') ;
+$sdvicoservice2   =  $this->countModules('sdvico-service2') ;
+$sdvicoservice3   =  $this->countModules('sdvico-service3') ;
+$sdvicoservice4   =  $this->countModules('sdvico-service4') ;
 $right 			 =	$this->countModules('sdvico-right');
+$newslates		 = $this->countModules('sdvico-newslates');
+$statistical	 = $this->countModules('sdvico-statistical');
+$googlemaps	 = $this->countModules('sdvico-mapsplace');
 if ($showRightColumn == 0 and $showleft == 0)
 {
 	$showno = 0;
@@ -341,7 +350,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 								</div>
 								</div>
 						</div>
-			<?php if ($showsdvicohome) : ?>
+			<?php if ($sdvicoservice>0) : ?>
 			<div  class="vc_row wpb_row vc_row-fluid service-section vc_custom_1432863334714">
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 							<jdoc:include type="modules" name="sdvico-service"   />
@@ -349,21 +358,22 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 			</div>
 			<?php endif; ?>
 		<div class="cv_row wpb_row vc_row-fluid  ">
-		<?php if($right): ?>
-				<div class="vc_col-sm-9 wpb_column vc_column_container ">
-						<jdoc:include type="component" />
-			</div>
-			<div class="vc_col-sm-3 wpb_column vc_column_container" id="newslate-right">
-				<jdoc:include type="modules" name="sdvico-right"   />
+			<?php if($right): ?>
+					<div class="vc_col-sm-9 wpb_column vc_column_container ">
+							<jdoc:include type="component" />
+				</div>
+				<div class="vc_col-sm-3 wpb_column vc_column_container" id="newslate-right">
+					<jdoc:include type="modules" name="sdvico-right"   />
 
-			</div>
-		<?php else: ?>
-				<div class="vc_col-sm-12 wpb_column vc_column_container ">
-						<jdoc:include type="component" />
-			</div>
-		<?php endif; ?>
-		<?php if ($showsdvicohome) : ?>
+				</div>
+			<?php else: ?>
+					<div class="vc_col-sm-12 wpb_column vc_column_container ">
+							<jdoc:include type="component" />
+				</div>
+			<?php endif; ?>
 		</div>
+		<?php if ($bannerwelcome>0) : ?>
+		
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432623707509">
 				<div class="vc_col-sm-4 wpb_column vc_column_container ">
 					<div class="wpb_wrapper">
@@ -373,11 +383,14 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				</div>
 					</div>
 				</div>
-
+		<?php endif; ?>
+		<?php if ($sdvicowelcome>0) :?>
 				<div class="vc_col-sm-8 wpb_column vc_column_container ">
 					<jdoc:include type="modules" name="sdvico-welcome"   />
 				</div>
 			</div>
+		<?php endif; ?>
+		<?php if ($sdvicoservice2>0) : ?>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432714435927" data-vc-full-width="true" data-vc-full-width-init="false" >
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 					<jdoc:include type="modules" name="sdvico-service2"   />
@@ -385,18 +398,25 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 			</div>
 			<div class="vc_row-full-width">
 			</div>
+		<?php endif; ?>
+		<?php if ($sdvicoservice3>0) : ?>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432638236744">
 				<div class="vc_col-sm-6 industry-serve wpb_column vc_column_container ">
 					<jdoc:include type="modules" name="sdvico-service3"   />
 				</div>
-
+		<?php endif; ?>
+		<?php if ($sdvicoservice4>0): ?>
 				<div class="vc_col-sm-6 wpb_column vc_column_container ">
 					<jdoc:include type="modules" name="sdvico-service4"   />
 				</div>
 			</div>
+		<?php endif; ?>
+		<?php if ($sdvico-statistical>0) :?>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1433738809862" data-vc-full-width="true" data-vc-full-width-init="false" >
 					<jdoc:include type="modules" name="sdvico-statistical"   />
 			</div>
+		<?php endif; ?>
+		<?php if ($newslates>0) : ?>
 			<div class="vc_row-full-width">
 			</div>
 			<div  class="vc_row wpb_row vc_row-fluid vc_custom_1432722092252" data-vc-full-width="true" data-vc-full-width-init="false" >
@@ -404,12 +424,12 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 					<jdoc:include type="modules" name="sdvico-newslates"   />
 				</div>
 			</div>
+		<?php endif; ?>
 			<div class="vc_row-full-width"></div>
 			<div  class="vc_row wpb_row vc_row-fluid text-center vc_custom_1432623902434">
 				<div class="vc_col-sm-12 wpb_column vc_column_container ">
 					<jdoc:include type="modules" name="sdvico-footer1"   />
 				</div>
-			<?php endif; ?>
 			</div>
 
 					</div><!-- col-md-8 /- -->
