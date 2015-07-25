@@ -8,7 +8,7 @@
 defined('_JEXEC') or die('Restricted access');
 ?>
 
-<ul>    <!-- SLIDE  -->
+<ul id="slider-home">    <!-- SLIDE  -->
             <li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="slider-section">
                 <!-- MAIN IMAGE -->
                 <img src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/revslider/home/slide-1.jpg"  alt="slide-1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">

@@ -350,8 +350,8 @@ p,
 .welcome-section .welcome-content a:hover,
 .industry-serve .row > a:hover,
 .btn:hover,.vc_btn3:hover {
-	box-shadow: 0 4px 0 rgba(243,231,33,0.25);
-	border: 2px solid #f5ea40;
+	    box-shadow: 0 4px 0 rgba(243, 33, 33, 0.25);
+    border: 2px solid #FF0000;
 }
 .btn:hover,.vc_btn3:hover {
 	background-color: transparent;
@@ -731,7 +731,7 @@ body.admin-bar .navbar-fixed-top {
 }
 
 .service-box-inner h4 {
-	margin-bottom: 36px;
+	height: 36px;
 }
 
 .service-box-inner a {
@@ -740,11 +740,12 @@ body.admin-bar .navbar-fixed-top {
 	background-color: #2196f3;
 	padding: 7px 20px;
 	text-decoration: none;
+	    margin-bottom: 10px;
 	letter-spacing: 1px;
 }
 
 .service-box-inner a:hover {
-	background-color: #f3e721;
+	    background-color: #C8283C;
 }
 
 .service-box {
@@ -3096,6 +3097,7 @@ ol.comment-list li.comment{
 .menu-block .navbar-default .navbar-nav > li .dropdown-menu li:focus > a,
 .menu-block .navbar-default .navbar-nav > li .dropdown-menu li:hover > a  {
 	color: #C8283C;
+    font-weight: 700;
 }
 
 .menu-block .navbar-default .navbar-nav > .active > a,
@@ -3580,7 +3582,7 @@ input#mod-search-searchword {
     transition: all .3s linear;
 }
 .search button.button.btn.btn-primary {
-    overflow: visible;
+        overflow: visible;
     position: relative;
     display: inline-block;
     border: 0;
@@ -3595,8 +3597,9 @@ input#mod-search-searchword {
     border-radius: 0 3px 3px 0;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
     float: none;
-    margin: 0;
+    margin: 0 2px 0px 0px;
     font-weight: 700;
+    box-shadow: none;
 }
 .container .col-md-9.col-sm-8.row.header-right {
     height: 130px;
@@ -3624,4 +3627,49 @@ div#post-2{
 }
 #newslate-right li{
 	list-style: none;
+}
+#slider-home{
+	font-family: sans-serif !important;
+
+}
+.tp-caption,.tp-caption span{
+	font-family: sans-serif;
+	font-weight: 600 !important;
+}
+.tp-caption.HomeSlider2Title, .HomeSlider2Title{
+	font-weight: 600 !important;
+	font-family:   sans-serif !important;
+}
+
+.cd-user-modal {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s 0, visibility 0 0.3s;
+}
+
+.cd-user-modal.is-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s 0, visibility 0 0;
+}
+#txt-gopy{
+	width: 567px;
+	border: 1px solid #dedede;
+	border-radius: 2px;
+}
+#modal-id .modal-content{
+	    background: #F1F1F1;
+
+}
+#modal-id .modal-dialog{
+	border-radius: 5px;
+}
+#modal-gop-y #btn-send{
+	    margin-bottom: 15px;
+
+
+}
+#modal-gop-y button{
+	color: white;
+	background: #2196F3
 }
