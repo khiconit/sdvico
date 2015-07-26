@@ -162,7 +162,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 								<jdoc:include type="modules" name="sdvico-logo"   />
 							</div><!-- col-md-2 /- -->
 							<!-- col-md-4 -->
-							<div class="col-md-10 col-sm-9  row header-right">
+							<div class="col-md-10 col-sm-9  row header-right sdvico-banner">
 														<!-- col-md-7 -->
 								<div class="sdvico-search col-md-6 col-sm-5 col-sm-offset-2 col-md-offset-2 call-us ">
 									<jdoc:include type="modules" name="sdvico-chooselang"   />
