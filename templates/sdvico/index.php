@@ -164,12 +164,13 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 							<!-- col-md-4 -->
 							<div class="col-md-10 col-sm-9  row header-right">
 														<!-- col-md-7 -->
-								<div class="col-md-4 col-sm-4 col-sm-offset-2 col-md-offset-2 call-us ">
-									<jdoc:include type="modules" name="sdvico-phone"   />
+								<div class="sdvico-search col-md-6 col-sm-5 col-sm-offset-2 col-md-offset-2 call-us ">
+									<jdoc:include type="modules" name="sdvico-chooselang"   />
 								</div><!-- col-md-7 /- -->
 															<!-- col-md-5 -->
-								<div class="col-md-6 col-sm-5 text-right ow-padding-left cart">
-									<jdoc:include type="modules" name="sdvico-chooselang"   />
+								<div class="sdvico-phone col-md-4 col-sm-4 text-right ow-padding-left cart">
+								<jdoc:include type="modules" name="sdvico-phone"   />
+
 								</div><!-- col-md-5 /- -->
 
 								</div><!-- col-md-4 /- -->
@@ -209,8 +210,8 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 				</div><!-- Menu Block /- -->
 			</header><!-- Header Section /- -->
 			<?php
-			$class="";
-				if($showsdvicohome)$class="padding-top-10";;
+			$class="padding-top-10";
+				if($showsdvicohome)$class="";
 			?>
 			<div id="post-2"  class="ow-section post-2 page type-page status-publish hentry <?=$class?>">
 				<!-- container -->

@@ -27,7 +27,7 @@ defined('_JEXEC') or die('Restricted access');
                     data-endelementdelay="0.1"
                      data-endspeed="300"
 
-                    style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Nguồn nước lọc từ biển
+                    style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Nguồn nước lọc giữa lòng dại dương
                 </div>
 
                 <!-- LAYER NR. 2 -->
