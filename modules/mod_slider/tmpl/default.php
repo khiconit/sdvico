@@ -11,7 +11,7 @@ defined('_JEXEC') or die('Restricted access');
 <ul id="slider-home">    <!-- SLIDE  -->
             <li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="slider-section">
                 <!-- MAIN IMAGE -->
-                <img src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/revslider/home/slide-1.jpg"  alt="slide-1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/revslider/home/slide-1.png"  alt="slide-1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -49,7 +49,7 @@ defined('_JEXEC') or die('Restricted access');
             <!-- SLIDE  -->
             <li data-transition="slideleft" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"  class="slider-section slider2">
                 <!-- MAIN IMAGE -->
-                <img src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/revslider/home/slide-2.jpg"  alt="slide-2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="<?php echo JURI::base();?>templates/sdvico/wp-content/uploads/sites/29/revslider/home/slide-2.png"  alt="slide-2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
