@@ -243,7 +243,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 												var setREVStartSize = function() {
 													var	tpopt = new Object();
 														tpopt.startwidth = 1200;
-														tpopt.startheight = 650;
+														tpopt.startheight = 450;
 														tpopt.container = jQuery('#rev_slider_1_1');
 														tpopt.fullScreen = "off";
 														tpopt.forceFullWidth="on";
@@ -269,7 +269,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 																				dottedOverlay:"none",
 														delay:9000,
 														startwidth:1200,
-														startheight:650,
+														startheight:450,
 														hideThumbs:200,
 
 														thumbWidth:100,
