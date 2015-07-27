@@ -243,7 +243,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pri
 												var setREVStartSize = function() {
 													var	tpopt = new Object();
 														tpopt.startwidth = 1200;
-														tpopt.startheight = 400;
+														tpopt.startheight = 650;
 														tpopt.container = jQuery('#rev_slider_1_1');
 														tpopt.fullScreen = "off";
 														tpopt.forceFullWidth="on";
