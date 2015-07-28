@@ -3547,12 +3547,15 @@ ul.row-fluid li a {
 	    font-weight: 700;
 }
 .readmore {
-        padding: 11px 100px;
+        padding: 11px 155px;
     display: inline-block;
     background-color: #2196f3;
     margin-top: 10px;
    cursor: pointer;
 
+}
+#newslate-right .readmore{
+	 padding: 11px 100px !important;
 }
 .readmore span {
     color: white;
@@ -3802,14 +3805,15 @@ ul.latestnews {
     cursor: pointer;
     color: white;
     margin: auto;
-    width: 92%;
+    width: 100%;
 }
 .product-box button:hover{
-	background:#C8283C !important
+	background:#2196F3 !important;
+	     border: 2px solid #2196F3;
     cursor: pointer;
     color: white;
     margin: auto;
-    width: 92%;
+    width: 98%;
 }
 .product-box h3 {
     line-height: 15px !important;
